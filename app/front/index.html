@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  Вводим "имя + коммент" или "имя + донат" и нажимаем "add" - сработают POST-запросы, которые сохранят данные в MongoDB. <br>
+  "get all data" - срабатывает GET-запрос, с помощью которого получим данные с MongoDB и выведем их на экран.
+  <br><br>
+  <hr>
+
+  <input type="text" placeholder="name" class="nameInput">
+  <input type="text" placeholder="comment" class="commentInput">
+  <input type="text" placeholder="donat" class="donatInput">
+  <button class="add">add</button>
+
+  <hr>
+
+  <button class="get">get all data</button>
+
+  <div class="users-container"></div>
+
+  <script src="static/scripts.js"></script>
+</body>
+</html>
